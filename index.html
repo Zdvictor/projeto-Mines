@@ -13,6 +13,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
         <script src="app.js"></script>
+        <script src="animacoes.js"></script>
 </head>
 
 <body onload="mines.saldo()" class="bg-secondary">
@@ -31,7 +32,7 @@
 
                               <div style="position: relative; left:40%; max-width: 60%;" class="text-light">
 
-                                    <p class="lead mt-4 btn  btn-outline-warning">DEMO: R$ <span id="dinheiro_disponivel"></span></p>
+                                    <p onmouseenter="entrar()" onmouseleave="sair()" id="texto_customizado" class="lead mt-4 btn text-light  btn-outline-warning">DEMO: R$ <span id="dinheiro_disponivel"></span></p>
                                 
                               </div>  
                         

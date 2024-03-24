@@ -162,8 +162,12 @@
                 let numeroRandomico6 = Math.floor(Math.random() * 3)
                 let numeroRandomico7 = Math.floor(Math.random() * 3)
 
-                console.log(numeroRandomico1,numeroRandomico2,numeroRandomico3,numeroRandomico4,numeroRandomico5,
-                    numeroRandomico6, numeroRandomico7,)
+               //Encurtar Codigos Console Verificar Onde Esta Bomba
+               for(let i = 1; i <= 7; i++) {
+
+                    console.log(`A Bomba ${i} Esta No Quadrado ${eval("numeroRandomico" + i)}`)
+
+               }
                 
                 
 
