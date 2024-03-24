@@ -1,1 +1,1 @@
-By Zdvictor whith only HTML,CSS,BOOTSTRAP,JS
+By Zdvictor with only HTML,CSS,BOOTSTRAP,JS
